@@ -1,0 +1,81 @@
+.first-container{
+    width: 100vw;
+height: 1024px;
+display: flex;
+justify-content: center;
+overflow-x:hidden;
+top: 1px;
+left: 4px;
+gap: 0px;
+background-image: url('../../Assets/grid.png');
+background-size: cover; /* Ensures the image covers the entire container */
+background-position: center; /* Centers the image in the container */
+background-repeat: no-repeat;
+
+}
+.first-headingContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:-5px;
+    color: wheat;
+    position: absolute;
+    font-weight:900;
+    font-size: xx-large;
+    margin-top: 5%;
+}
+.blob-container{
+    width: 90%;
+height: 500px;
+top:210px;
+color: white;
+gap: 0px;
+opacity: 0.1px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding-left: 10px;
+padding-right: 10px;
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=439fe8&c2=dfdcdc&gt=r&gd=dcc
+*/
+
+background: radial-gradient(circle at center, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0) 70%);
+
+
+
+
+}
+.blob-container span{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+.facility-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    padding-left: 15%;
+    padding-right: 15%;
+   height: auto;
+    width: 100%;
+    gap: 100px;
+    margin-top: 45%;
+
+}
+.facility-container .first-facility:hover{
+    box-shadow: rgba(113, 113, 121, 0.25) 0px 13px 27px -5px, rgba(244, 218, 218, 0.3) 0px 8px 16px -8px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.facility-container .second-facility:hover{
+    box-shadow: rgba(113, 113, 121, 0.25) 0px 13px 27px -5px, rgba(244, 218, 218, 0.3) 0px 8px 16px -8px;
+    cursor: pointer;
+    transform: scale(1.2);
+}

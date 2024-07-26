@@ -1,0 +1,53 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    background: #302f2f;
+    color: white;
+    justify-content: center;
+    height: 500px;
+    width: 100vw;
+    overflow-x:hidden;
+    top:20px;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.heading-container-footer{
+    width: 405px;
+height: 39px;
+top: 2782px;
+left: 518px;
+gap: 0px;
+
+
+}
+.heading-container-footer h2{
+    font-family: Nohemi;
+font-size: 32px;
+font-weight: 500;
+line-height: 38.4px;
+letter-spacing: 0.02em;
+text-align: center;
+
+}
+
+.para-container-footer {
+    width: 793px;
+    height: 96px;
+    top: 2863px;
+    left: 324px;
+    gap: 0px;
+    margin-top: 3%;
+    
+}
+
+.para-container-footer p{
+    font-family: Nohemi;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+letter-spacing: 0.02em;
+text-align: center;
+
+}
